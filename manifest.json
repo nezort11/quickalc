@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Quickalc",
+  "version": "1.0",
+  "description": "Add a browser action to make quick popup expression calculations.",
+  "homepage_url": "https://github.com/nezort11/quickalc",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "Quickalc",
+    "default_popup": "./index.html"
+  }
+}
