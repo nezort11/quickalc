@@ -9,8 +9,17 @@
     "96": "icons/icon-96.png"
   },
 
+  "content_security_policy": "script-src 'self' https://unpkg.com; object-src 'self'",
+
   "browser_action": {
     "default_icon": "icons/icon-32.png",
+    "theme_icons": [
+      {
+        "light": "icons/icon-32-light.png",
+        "dark": "icons/icon-32.png",
+        "size": 32
+      }
+    ],
     "default_title": "Quickalc",
     "default_popup": "./index.html"
   }
